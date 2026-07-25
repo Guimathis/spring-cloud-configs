@@ -13,6 +13,10 @@ management:
 server:
   port: 8080
 
+# Cada arquivo .yml pode ter um valor diferente
+#  que será mostrado de acordo com o profile que estiver ativo.
+# O profile padrão é o "default" e caso não seja especificado
+#  nenhum profile, o Spring Boot irá utilizar o arquivo application.yml.
 greeting-service:
   greeting: "Olá"
   default-value: "Mundo"
